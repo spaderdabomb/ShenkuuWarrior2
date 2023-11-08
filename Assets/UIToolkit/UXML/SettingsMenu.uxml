@@ -1,0 +1,8 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False" gen-cs-file="e850c805278c14d11b9ba927f552e35d">
+    <ui:VisualElement name="MenuRoot" style="flex-grow: 0; width: 1000px; height: 850px; background-color: rgba(0, 0, 0, 0.59); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+        <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderLabel" class="menu-header-label" />
+        <ui:VisualElement name="HeaderSpacer" style="flex-grow: 0; -unity-background-image-tint-color: rgba(230, 230, 230, 0.9); height: 2px; background-color: rgb(230, 230, 230); margin-left: 20px; margin-right: 20px;" />
+        <ui:VisualElement name="MainContent" style="flex-grow: 1;" />
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" class="menu-button" style="align-self: center; margin-top: 40px; margin-right: 0; margin-bottom: 40px; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

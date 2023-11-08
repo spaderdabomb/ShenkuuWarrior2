@@ -1,0 +1,7 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False" gen-cs-file="4e67279f9faca4f64ab87dafcb2375d8">
+    <ui:VisualElement name="EntryContainerRoot" style="flex-grow: 0; flex-direction: row; justify-content: space-between; margin-left: 40px; margin-right: 40px;">
+        <ui:Label tabindex="-1" text="Rank" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RankLabel" class="menu-standard-label" style="font-size: 30px; width: 100px;" />
+        <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameLabel" class="menu-standard-label" style="font-size: 30px; align-self: auto; justify-content: flex-start; flex-grow: 1; margin-left: 100px; text-overflow: ellipsis;" />
+        <ui:Label tabindex="-1" text="Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScoreLabel" class="menu-standard-label" style="font-size: 30px; -unity-text-align: upper-right; align-self: flex-end;" />
+    </ui:VisualElement>
+</ui:UXML>

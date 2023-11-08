@@ -1,0 +1,39 @@
+.menu-button {
+    width: 600px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.39);
+    font-size: 36px;
+    -unity-font-style: bold;
+    color: rgb(230, 230, 230);
+}
+
+.menu-header-label {
+    align-self: center;
+    font-size: 56px;
+    -unity-font-style: bold;
+    color: rgb(230, 230, 230);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+}
+
+.menu-header-spacer {
+    margin-right: 20px;
+    margin-left: 20px;
+    align-self: stretch;
+    background-color: rgb(230, 230, 230);
+    flex-grow: 0;
+    height: 2px;
+}
+
+.menu-standard-label {
+    font-size: 42px;
+    -unity-font-style: bold;
+    color: rgb(230, 230, 230);
+}
